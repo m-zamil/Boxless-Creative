@@ -49,6 +49,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #0e0707;
 }
 header {
   display: flex;
@@ -179,8 +180,6 @@ header {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 @media (min-width: 600px) {
-  .bg-wrapper {
-  }
   header {
     padding: 26px 34px 26px 35px;
   }
@@ -239,9 +238,9 @@ header {
 .hero {
   padding: 96px 0 196px;
   text-align: center;
-  background-image: url('../images/grid-bg.png');
-  background-repeat: no-repeat;
-  background-position: center 74%;
+  background-image: url('../images/grid-bg.png'), url('../images/blue-boxes.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: center 54%;
   overflow: hidden;
 }
 .hero h1 {
