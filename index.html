@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxless Creative</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Viga&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-wrapper">
+      <header>
+        <div class="logo">BOXLESS CREATIVE</div>
+        <button class="menu-toggle" id="mobile-menu-toggle">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </button>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#main">Main</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+            <li><a href="#" class="openModalBtn">Free Consultation</a></li>
+          </ul>
+          <div class="social-icons">
+            <a href="https://www.instagram.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
+                <path
+                  d="M6.46888 0.730469C2.91788 0.730469 -0.00012207 3.2916 -0.00012207 6.41611V14.3808C-0.00012207 17.5018 2.91388 20.0664 6.46888 20.0664H15.5309C19.0819 20.0664 21.9999 17.5053 21.9999 14.3808V6.41699C21.9999 3.29512 19.0859 0.730469 15.5309 0.730469H6.46888ZM6.46888 2.48828H15.5309C16.118 2.48759 16.6995 2.58871 17.242 2.78586C17.7846 2.983 18.2776 3.2723 18.6927 3.63717C19.1078 4.00204 19.437 4.43532 19.6613 4.91218C19.8856 5.38904 20.0007 5.90011 19.9999 6.41611V14.3808C20.0007 14.8968 19.8856 15.4078 19.6613 15.8847C19.437 16.3616 19.1078 16.7948 18.6927 17.1597C18.2776 17.5246 17.7846 17.8139 17.242 18.011C16.6995 18.2082 16.118 18.3093 15.5309 18.3086H6.46988C5.88269 18.3094 5.3011 18.2084 4.75842 18.0113C4.21575 17.8142 3.72266 17.5249 3.30741 17.16C2.89216 16.7951 2.56292 16.3618 2.33855 15.8849C2.11418 15.408 1.99909 14.8968 1.99988 14.3808V6.41699C1.99896 5.90091 2.11391 5.38975 2.33816 4.91279C2.56241 4.43582 2.89155 4.00244 3.3067 3.63748C3.72186 3.27251 4.21487 2.98314 4.7575 2.78594C5.30013 2.58874 5.88169 2.48759 6.46888 2.48828ZM16.9059 4.41133C16.7868 4.41086 16.6687 4.43114 16.5585 4.47099C16.4484 4.51085 16.3483 4.56948 16.2641 4.64352C16.1798 4.71755 16.1131 4.80552 16.0678 4.90234C16.0224 4.99916 15.9993 5.10292 15.9999 5.20762C15.9999 5.65059 16.4019 6.00391 16.9059 6.00391C17.0251 6.00449 17.1432 5.98429 17.2535 5.94449C17.3638 5.90469 17.464 5.84608 17.5483 5.77203C17.6327 5.69798 17.6995 5.60998 17.7449 5.5131C17.7903 5.41622 17.8134 5.31239 17.8129 5.20762C17.8134 5.10284 17.7903 4.99901 17.7449 4.90214C17.6995 4.80526 17.6327 4.71725 17.5483 4.6432C17.464 4.56916 17.3638 4.51054 17.2535 4.47074C17.1432 4.43094 17.0251 4.41075 16.9059 4.41133ZM10.9999 5.125C7.69988 5.125 4.99988 7.49805 4.99988 10.3984C4.99988 13.2988 7.69988 15.6719 10.9999 15.6719C14.2999 15.6719 16.9999 13.2988 16.9999 10.3984C16.9999 7.49805 14.2999 5.125 10.9999 5.125ZM10.9999 6.88281C13.2229 6.88281 14.9999 8.44463 14.9999 10.3984C14.9999 12.3522 13.2229 13.9141 10.9999 13.9141C8.77688 13.9141 6.99988 12.3522 6.99988 10.3984C6.99988 8.44463 8.77688 6.88281 10.9999 6.88281Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
+                <path
+                  d="M2.49988 0.730469C1.83829 0.734611 1.20514 0.967438 0.737319 1.37861C0.269496 1.78978 0.00459063 2.34626 -0.00012207 2.92773V17.8691C-0.00012207 19.0706 1.13288 20.0664 2.49988 20.0664H19.4999C20.8669 20.0664 21.9999 19.0706 21.9999 17.8691V2.92773C21.9999 1.72627 20.8669 0.730469 19.4999 0.730469H2.49988ZM2.49988 2.48828H19.4999C19.7849 2.48828 19.9999 2.67725 19.9999 2.92773V17.8691C20.0012 17.9272 19.9892 17.9849 19.9646 18.0387C19.9399 18.0926 19.9032 18.1415 19.8565 18.1825C19.8098 18.2236 19.7541 18.2559 19.6928 18.2776C19.6315 18.2992 19.5659 18.3098 19.4999 18.3086H2.49988C2.43381 18.3099 2.36811 18.2995 2.30677 18.2778C2.24543 18.2562 2.18971 18.2239 2.14298 18.1828C2.09624 18.1418 2.05947 18.0928 2.03487 18.0389C2.01028 17.9849 1.99837 17.9272 1.99988 17.8691V2.92773C1.99988 2.67725 2.21488 2.48828 2.49988 2.48828ZM5.43788 3.99912C5.20871 3.99426 4.98076 4.02974 4.76742 4.10346C4.55409 4.17718 4.35968 4.28766 4.19565 4.42839C4.03162 4.56913 3.90126 4.73727 3.81227 4.92294C3.72327 5.10861 3.67742 5.30805 3.67742 5.50952C3.67742 5.71099 3.72327 5.91043 3.81227 6.0961C3.90126 6.28177 4.03162 6.44992 4.19565 6.59065C4.35968 6.73139 4.55409 6.84187 4.76742 6.91559C4.98076 6.98931 5.20871 7.02478 5.43788 7.01992C5.88647 7.01041 6.31306 6.8471 6.62651 6.56489C6.93996 6.28267 7.11542 5.90391 7.11542 5.50952C7.11542 5.11513 6.93996 4.73638 6.62651 4.45416C6.31306 4.17194 5.88647 4.00863 5.43788 3.99912ZM14.4679 8.00869C13.0349 8.00869 12.0819 8.69863 11.6879 9.3543H11.6249V8.20117H8.81188V16.5508H11.7499V12.4305C11.7499 11.3424 11.9959 10.2886 13.5309 10.2886C15.0429 10.2886 15.0629 11.5173 15.0629 12.4858V16.5508H17.9999V11.9638C17.9999 9.71904 17.4559 8.00869 14.4679 8.00869ZM3.99988 8.20117V16.5508H6.96888V8.20117H3.99988Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </header>
+      <section class="hero" id="main">
+        <div class="container">
+          <h1>AUTOMIZE YOUR <span>BRAND</span></h1>
+          <p>Branding and traffic are the most important aspect on scaling your business. we will help you systemize your leads and funnel</p>
+          <div class="hero_cta">
+            <a class="cta openModalBtn">FREE CONSULT</a>
+          </div>
+          <ul class="hero_stats">
+            <li>
+              <span class="stats_text">Followers</span>
+              <span class="stats_number">+226%</span>
+            </li>
+            <li>
+              <span class="stats_text">Engagetment</span>
+              <span class="stats_number">+326%</span>
+            </li>
+            <li>
+              <span class="stats_text">Reach</span>
+              <span class="stats_number">+295%</span>
+            </li>
+            <li>
+              <span class="stats_text">Leads</span>
+              <span class="stats_number">+210%</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Hero content here -->
+      </section>
+    </div>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about_wrapper">
+          <div class="about_content">
+            <h2>
+              <span class="word_1">ABOUT</span> <br />
+              <span class="word_2">US</span>
+            </h2>
+            <p class="about_text">At Boxless Creative, we don't just manage your social media; we partner with you to fuel your business growth. Our mission is to drive meaningful engagement, expand your reach, and help you achieve your goals through strategic social media initiatives.</p>
+            <p class="about_tag">In The Business for over 5+&nbsp;Years</p>
+          </div>
+          <div class="about_image">
+            <picture>
+              <source media="(min-width: 992px)" srcset="./images/about-lg.jpg" type="image/jpeg" />
+              <img src="./images/about-sm.jpg" alt="About image" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="benefits">
+      <div class="container">
+        <h2>
+          BENEFITS OF: <br />
+          BOXLESS CREATIVE
+        </h2>
+        <dl class="benefits_list">
+          <div> <dt>Contracts</dt> <dd>Freedom from Long-Term Contracts</dd></div>
+          <div> <dt>Customizable</dt> <dd>Customizable plans tailored to your needs</dd></div>
+          <div> <dt>Fees</dt> <dd>Flat-Rate Pricing, No Hidden Fees and no performance based fees</dd></div>
+          <div> <dt>Results</dt> <dd>AI - Powered Lead Magnet, Elevate your social media</dd></div>
+          <div> <dt>Support</dt> <dd>Weekly Evaluation, Content strategy creation, Script Writing, Funnel Building and Media Buying</dd></div>
+          <div><dt>Consistency</dt> <dd>Consistent Daily Video Output</dd></div>
+        </dl>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="container">
+        <h2>WHAT PEOPLE SAY ABOUT US</h2>
+        <div class="testimonial_cards_wrapper">
+          <div class="testimonial_card">
+            <p class="testimonial_text"> I have been working with Onvyll for over 6 months now and I can honestly say that he is one of the best video editor and thumbnail designer I have ever worked with. He is always on time, always responsive, and always deliver high-quality work that meets my expectations and vision. Onvyll has a great eye for detail, creativity, and style, and knows how to take my Brawlhalla videos and elevate them to a much higher level of quality. He is also very easy to communicate with and open to feedback and suggestions. I highly recommend Onvyll to anyone who needs a professional and reliable video editor and designer.</p>
+            <div class="testimonial_author">- Cosolix -</div>
+            <div class="testimonial_author_des">
+              Professional Brawlhalla Player <br />
+              Content Creator
+            </div>
+            <div class="testimonial_date">01/2023</div>
+          </div>
+          <div class="testimonial_card">
+            <p class="testimonial_text">Really nice working with B.C its great to have a reliable team on your back. really easy to communicate with and easy going. Overall really nice working with them </p>
+            <div class="testimonial_author">- Barbarosa -</div>
+            <div class="testimonial_author_des"> Production Agency </div>
+            <div class="testimonial_date">05/2022</div>
+          </div>
+          <div class="testimonial_card">
+            <p class="testimonial_text"> I have been working with Onvyll for over 6 months now and I can honestly say that he is one of the best video editor and thumbnail designer I have ever worked with. He is always on time, always responsive, and always deliver high-quality work that meets my expectations and vision. Onvyll has a great eye for detail, creativity, and style, and knows how to take my Brawlhalla videos and elevate them to a much higher level of quality. He is also very easy to communicate with and open to feedback and suggestions. I highly recommend Onvyll to anyone who needs a professional and reliable video editor and designer.</p>
+            <div class="testimonial_author">- KyleChanFX -</div>
+            <div class="testimonial_author_des">
+              Catalyst Day Trader <br />
+              Value Add Marketing
+            </div>
+            <div class="testimonial_date">05/2024</div>
+          </div>
+        </div>
+        <div class="video_wrapper">
+          <video src="./Testimonial.mp4" controls></video>
+          <div class="video_auth" controls>Kyle Chan</div>
+        </div>
+        <div class="bar_lines">
+          <div class="bar_line_1"></div>
+          <div class="bar_line_2"></div>
+          <div class="bar_line_3"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer_content">
+          <h2
+            >READY TO SCALE <br />
+            YOUR BRAND?</h2
+          >
+          <p>Embark on a journey of remarkable growth and discover the full potential of your realtor career. Schedule your free consultation with us today.</p>
+          <a class="cta openModalBtn">FREE CONSULT <img src="./images/arrow-1.svg" alt="" /></a>
+          <ul class="footer_nav">
+            <li>
+              <a href="#">
+                <img src="./images/insta.svg" alt="" />
+                Boxless_Creative
+              </a>
+            </li>
+            <li>
+              <a href="tel:+6282127890027"> <img src="./images/whatsapp.svg" alt="" /> +6282127890027 </a>
+            </li>
+            <li>
+              <a href="mailto:Onvyll@Boxlesscreative.com">
+                <img src="./images/email.svg" alt="" />
+                Onvyll@Boxlesscreative.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>SCHEDULE A CALL</h2>
+        <p class="modal-tag">1 on 1 Social media strategy</p>
+        <form class="modal-form" id="scheduleForm" method="post" action="https://api.web3forms.com/submit">
+          <input type="hidden" name="access_key" value="9a42d6e7-12fb-410e-b827-495871409436" />
+          <div class="input_wrappers">
+            <label>
+              <span>NAME</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span>EMAIL</span>
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              <span>NUMBER</span>
+              <input type="tel" name="number" required />
+            </label>
+          </div>
+          <p class="privacy-note">*we respect your privacy and data, and will not send you any spam that would disturb your time :)</p>
+          <button type="submit" class="submit_btn">NEXT</button>
+          <p class="result" id="result"></p>
+        </form>
+
+        <a id="ctaBtn" href="https://calendly.com/boxlesscreative/content-creation-strategy" target="_blank" class="cta-btn">SCHEADULE NOW!</a>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
